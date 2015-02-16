@@ -207,7 +207,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 .four-to-two {
     width: 50%;
-    min-width: 300px;
+    min-width: 320px;
     float:left;
 }
 
@@ -228,6 +228,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 }
 .product-big-container {
     border: #d7d7d7 1px solid;
+    padding: 1px;
 }
 
 .product-big {
