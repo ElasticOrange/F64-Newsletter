@@ -167,7 +167,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
 	display:block!important;
-	max-width:700px!important;
+	width:700px!important;
 	margin:0 auto!important; /* makes it centered */
 	clear:both!important;
 }
@@ -241,6 +241,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 .product-four {
     border: #d7d7d7 1px solid;
     width: 25%;
+    vertical-align: top;
 }
 
 .product-four-price-big {
@@ -275,12 +276,13 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 .product-three {
     border: #d7d7d7 1px solid;
     width: 33%;
+    vertical-align: top;
 }
 
 .products-two {
     border: #d7d7d7 1px solid;
-    
     width: 50%;
+    vertical-align: top;
 }
 
 .detalii-blog {
@@ -306,7 +308,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 .product-price-cut {
     text-decoration: line-through;
     color: #5c5c5c;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 25px;
     padding-right: 20px;
     padding-bottom: 25px;
@@ -314,8 +316,8 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 .product-price-big {
     color: #f15b00;
-    font-weight: 700px;
-    font-size: 41px;
+    font-weight: 900;
+    font-size: 34px;
     padding-bottom: 25px;
 }
 
