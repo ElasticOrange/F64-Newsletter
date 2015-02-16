@@ -167,7 +167,9 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
 	display:block!important;
-	width:700px!important;
+	/*width:100%!important;*/
+    min-width: 320px;
+    max-width: 700px;
 	margin:0 auto!important; /* makes it centered */
 	clear:both!important;
 }
@@ -203,6 +205,11 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 /* Be sure to place a .clear element after each set of columns, just to be safe */
 .clear { display: block; clear: both; }
 
+.four-to-two {
+    width: 50%;
+    min-width: 300px;
+    float:left;
+}
 
 /* -------------------------------------------
 		PHONE
@@ -218,7 +225,6 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 	table.social div[class="column"] {
 		width:auto!important;
 	}
-
 }
 .product-big-container {
     border: #d7d7d7 1px solid;
@@ -242,6 +248,14 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
     border: #d7d7d7 1px solid;
     width: 25%;
     vertical-align: top;
+}
+
+.product-four img{
+    width: 100%;
+}
+
+.product-four-price-details img {
+    width: auto;
 }
 
 .product-four-price-big {
