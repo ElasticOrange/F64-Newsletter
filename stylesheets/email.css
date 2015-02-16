@@ -274,10 +274,13 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 .product-three {
     border: #d7d7d7 1px solid;
+    width: 33%;
 }
 
 .products-two {
     border: #d7d7d7 1px solid;
+    
+    width: 50%;
 }
 
 .detalii-blog {
@@ -297,7 +300,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 }
 
 .space-row {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .product-price-cut {
@@ -322,10 +325,97 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 .category-name {
     text-align: center;
-    font-size: 24px;   
+    font-size: 24px;
 }
 
 .category-container {
     padding-top: 60px;
     padding-bottom: 25px;
+}
+
+.product-three-price-big {
+    color: #f15b00;
+    font-weight: 900;
+    font-size: 24px;
+
+    padding-left: 5px;
+}
+
+.product-three-price-cut {
+    padding-left: 5px;
+    text-decoration: line-through;
+    font-size: 15px;
+    color: #5c5c5c;
+    height: 20px;
+}
+
+.product-three-price-name {
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    
+    height: 60px;
+    
+    vertical-align: text-top;
+}
+
+.product-two-price-big {
+    color: #f15b00;
+    font-weight: 900;
+    font-size: 24px;
+
+    padding-left: 5px;
+}
+
+.product-two-price-cut {
+    padding-left: 5px;
+    text-decoration: line-through;
+    font-size: 18px;
+    color: #5c5c5c;
+    height: 25px;
+}
+
+.product-two-price-name {
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    
+    height: 60px;
+    
+    vertical-align: text-top;
+}
+
+.product-two-price-details {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.blog-container {
+    border: #d7d7d7 1px solid;
+    
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blog-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-picture {
+    width: 40%;
+    padding-right: 15px;
+}
+
+.blog-content {
+    font-size: 14px;
+}
+
+.blog-text-container {
+    padding-bottom: 10px;
+}
+
+.blog-header {
+    font-size: 28px;
 }
