@@ -419,3 +419,38 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 .blog-header {
     font-size: 28px;
 }
+
+.footer-social {
+    background-color: #f78129;
+}
+
+.footer-address-container {
+    background-color: #f0f0f0;
+    
+    height: 135px;
+}
+
+.footer-logo {
+    padding-left: 35px;
+}
+
+.footer-address {
+    
+}
+
+.footer-address-description {
+    font-weight: 700;
+    font-size: 18px;
+    
+    text-align: right;
+    
+    color: #454545;
+}
+
+.footer-address-value {
+    color: #505050;
+    
+    text-align: left;
+    
+    padding-left: 20px;
+}
