@@ -263,7 +263,6 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
     color: #f15b00;
     font-weight: 900;
     font-size: 24px;
-
     padding-left: 5px;
 }
 
@@ -284,8 +283,9 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
     padding-left: 5px;
     font-size: 10px;
     padding-bottom: 10px;
-    height: 35px;
     vertical-align: text-top;
+    min-height:80px;
+    display: block;
 }
 
 .product-three {
@@ -433,6 +433,11 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
     padding-bottom: 10px;
 }
 
+.blog-image{
+    padding: 5px;
+    float: left;
+}
+
 .blog-header {
     font-size: 28px;
 }
@@ -449,6 +454,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 .footer-logo {
     padding-left: 35px;
+    width:70%;
 }
 
 .footer-address {
